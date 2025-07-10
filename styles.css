@@ -19,7 +19,8 @@ nav {
 }
 
 nav a {
-  color: #4f46e5;
+  color: white;
+  background: #6366f1;
   font-weight: 600;
   font-size: 1.1rem;
   text-decoration: none;
