@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Switcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Outer Rectangle (Canvas) - Background color changes here -->
+    <div id="canvas" class="canvas">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+                <a href="https://github.com/MrMorpho1" target="_blank" class="nav-link">Github</a>
+            </div>
+        </nav>
+
+        <!-- Inner Rectangle (Content) - Static white container -->
+        <div id="content" class="content">
+            <h1 class="title">Color Scheme Switcher</h1>
+
+            <!-- Color Boxes -->
+            <div class="color-grid">
+                <button class="button" data-color="#808080" id="grey"></button>
+                <button class="button" data-color="#ffffff" id="white"></button>
+                <button class="button" data-color="#4338ca" id="blue"></button>
+                <button class="button" data-color="#f8b4d0" id="pink"></button>
+            </div>
+
+            <!-- Instructions -->
+            <div class="instructions">
+                <p class="instruction-text">Try clicking on one of the colors above</p>
+                <p class="instruction-text">to change the background color!</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
